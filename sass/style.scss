@@ -1,0 +1,297 @@
+$green:#77a466;
+$very-light-grey:#dedbdc;
+$border-color:$very-light-grey;
+$white:#000;
+$black:#fff;
+$site-width:1200px;
+$bold:700;
+$regular:400;
+$font-wisdom: "Wisdom Script", script;
+
+
+.clear {
+	clear:both;
+}
+
+html,
+body {
+	max-width:$site-width;
+	margin:0 auto;
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+
+
+	h1 {
+		color:$white;
+		font-size:2em;
+		text-transform:uppercase;
+		font-weight:$bold;
+	}
+	h2 {
+		color:$green;
+		font-size:1.5em;
+		text-transform:uppercase;
+		font-weight:$bold;
+	}
+	h3{
+		color:$white;
+		font-size:1 em;
+		text-transform:uppercase;
+		font-weight:$regular;
+	}
+	p {
+		color:#white;
+		font-size:1em;
+		font-weight:$regular;
+	}
+}
+
+
+/*=================
+		HEADER
+==================*/
+
+header {
+	width:100%;
+	margin: 0 auto;
+	
+	span {
+		color:$green;
+	}
+}
+
+
+
+/*===========================
+NAVIGATON 
+=========================*/
+a.navbar-brand {
+		color:$white;
+		font-size:1.9em;
+		text-transform:uppercase;
+		font-weight:$bold;
+		
+}
+
+
+nav.navbar-default{
+	background-color:white;
+	border:none;
+
+	.navbar-nav {
+		li {
+
+			a {
+				color:$green;
+			}	
+		}
+	}
+}
+
+
+
+.thank-you-top-section {
+	text-align:center;
+}
+
+
+img {
+		width:100%;
+		min-height:100px;
+		border-top:3px solid $green;
+		border-bottom:3px solid $green;
+	}
+
+.top-section {
+	margin-bottom:20px;
+	width:94%;
+	margin:0 auto;
+	
+	
+
+	h2 {
+		text-align:center;
+	}
+
+	p{ text-align:justify; }
+
+	img {
+		width:100%;
+		min-height:100px;
+		border-top:3px solid $green;
+		border-bottom:3px solid $green;
+	}
+}
+
+
+.section-wrap {
+	width:96%;
+	margin:0 2%;
+
+
+	h3 {
+		text-align:center;
+		font-size:1rem;
+		font-weight:bold;
+	}
+
+	ul {
+		color:$green;
+		font-weight:$regular;
+		list-style-type:none;
+		margin:0;
+	}
+	li {
+		line-height:32px;
+		text-align:center;
+	}
+}
+
+/*===========================
+Bottom Section
+=========================*/
+
+
+.bottom-section {
+	width:100%;
+	border-top: 1px solid $very-light-grey;
+	margin:20px 0;
+}
+
+
+
+.reviews {
+	border-top: 1px solid $very-light-grey;
+	text-align:justify;
+	width:96%;
+	margin:20px 2%;
+}
+
+.contact-us {
+	text-align:center;
+	border-top: 1px solid $very-light-grey;
+	margin:20px 0;
+}
+
+footer {
+	width:100%;
+	text-align:center;
+	border-top: 1px solid $very-light-grey;
+	margin:20px 0;
+	 h3 {
+	 	font-size:1em;
+	 }
+
+	span {
+		color:$green;
+		font-family: $font-wisdom;
+		text-transform:lowercase;
+	}
+
+}
+
+
+
+/* =============================== */
+/* =========== TABLET ============ */
+/* =============================== */
+@media (min-width:768px) {
+
+/*=================
+		HEADER
+==================*/
+
+header {
+	width:100%;
+	margin: 0 auto;
+
+}
+a.navbar-brand {
+		font-size:2em;
+}
+
+.thank-you-top-section {
+	text-align:center;
+}
+
+
+
+
+.top-section {
+	h2 {
+		text-align:left;
+	}
+}
+
+/*=================
+		Section Wrap
+==================*/
+.section-wrap {
+	width:28%;
+	float:left;
+	padding-left:10px; 
+	text-align:left;
+
+	h3 {
+		text-align:left;
+	}
+
+	ul {
+		margin:0;
+		padding:0;
+	}
+	
+li {
+		
+		text-align:left;
+	}
+	
+}
+
+/*=================
+		HEADER
+==================*/
+
+.bottom-section {
+	border-right:1px solid $border-color;
+	border-left:1px solid $border-color;
+	
+	margin-top:50px;
+}
+
+
+
+	.specials {
+		border-right:1px solid $border-color;
+	}
+	.reviews {
+		border-right:1px solid $border-color;
+		border-top:none;
+		text-align:left;
+		margin-top:0;
+		padding-right:20px;
+
+	}
+
+	.contact-us {
+		border-top:none;
+		margin-top:0;
+
+		
+	}
+
+}
+
+/* =============================== */
+/* =========== DESKTOP ============ */
+/* =============================== */
+
+@media (min-width:940px) {
+	
+
+    
+}
+
+
+
+

@@ -1,0 +1,69 @@
+body {
+	max-width:1200px;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+	}
+	h1 {color:#000;font-size:30px;text-transform:uppercase;font-weight:700;	}
+	h2 {color:#77a466;font-size:18px;text-transform:uppercase;font-weight:700;}
+	h3 {color:#000;font-size:12px;text-transform:uppercase;font-weight:400;}
+	p {color:#000;font-size:16px;font-weight:400;}
+header {width:100%;margin: 0 auto;}
+header span {color:#77a466;}
+
+
+nav .title {float:left;}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+     overflow: hidden;
+    background-color: #FFF;}
+nav li {float: right;}
+nav li a {
+    display: inline-block;
+    color: #77a466;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:14px;
+	font-weight:700;}
+nav li a:hover {background-color: #111;}
+
+.thank-you-top-section {
+	text-align:center;
+}
+.top-section {
+	margin-bottom:30px;
+	width:100%;
+	margin: auto;}
+.top-section img {
+	border-top 3px solid #77a466;
+	border-bottom 3px solid #77a466;
+	margin:auto;
+	width:100%;
+	height:auto;}
+.bottom-section {
+	width:100%;
+	border-top: 1px solid #dedbdc;
+	border-bottom: 1px solid #dedbdc;
+	margin-top:75px;}
+.section-wrap {width:32%;float:left;padding-left:10px;}
+.section-wrap ul {
+		color:#77a466;
+		font-size:16px;
+		font-weight:400;
+		list-style-type:none;}
+.section-wrap li {
+	line-height:32px;
+}
+.contact-us,
+.reviews {
+	border-left:1px solid #dedbdc;
+}
+.contact-us h3 {font-weight:700;}
+.contact-us p {line-height:24px;}
+
+footer {width:100%;text-align:center;padding-top:30px;}
+footer span {color:#77a466;font-family: "Wisdom Script", script;
+text-transform:lowercase;}
+.clear {clear:both;}
